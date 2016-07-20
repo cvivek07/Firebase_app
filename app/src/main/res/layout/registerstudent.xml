@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:fillViewport="false">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <EditText
+            android:id="@+id/editSmileID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Smile ID"
+
+            />
+
+        <EditText
+            android:id="@+id/editFullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full Name"
+            />
+
+        <EditText
+            android:id="@+id/editFatherName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Father's Name"
+            />
+
+        <EditText
+            android:id="@+id/editAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            />
+
+        <EditText
+            android:id="@+id/editContactNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contact Number"
+            />
+        <EditText
+            android:id="@+id/editAltContactNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Alternate Contact Number"
+            />
+
+        <EditText
+            android:id="@+id/editCollegeName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="College"
+            />
+        <EditText
+            android:id="@+id/editAmtSent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Amount Sent"
+            />
+        <EditText
+            android:id="@+id/editExpectedAmtforcoursecompletion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Expected amount for course completion"
+            />
+        <EditText
+            android:id="@+id/editRemarks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Remarks"
+            />
+        <EditText
+            android:id="@+id/editSource"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Source"
+            />
+        <EditText
+            android:id="@+id/edityearofpassout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Year of passout(XII)"
+            />
+
+        <EditText
+            android:id="@+id/edit12Marks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="XIIth Marks"
+            />
+        <EditText
+            android:id="@+id/edit10Marks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Xth Marks"
+
+
+            />
+        <Button
+            android:id="@+id/buttonAddStudent"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="ADD STUDENT"
+            android:background="#FF6347"
+            />
+
+    </LinearLayout>
+</ScrollView>
